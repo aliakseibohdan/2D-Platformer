@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 932aef01bc66e4249a795d99a75f30ce, type: 3}
+  m_Name: AudioConfig
+  m_EditorClassIdentifier: Assembly-CSharp::Game.Audio.AudioConfig
+  <ConfigId>k__BackingField: 
+  masterVolume: 1
+  musicVolume: 0.8
+  sfxVolume: 0.8
+  voiceVolume: 0.8
+  ambientVolume: 0.6
+  masterVolumeParameter: MasterVolume
+  musicVolumeParameter: MusicVolume
+  sfxVolumeParameter: SFXVolume
+  voiceVolumeParameter: VoiceVolume
+  ambientVolumeParameter: AmbientVolume
+  musicFadeInDuration: 2
+  musicFadeOutDuration: 1.5
+  loopBackgroundMusic: 1
+  maxConcurrentSFX: 20
+  sfxPoolWarmupCount: 10
+  spatialBlend: 0
+  enableAudioOcclusion: 1
+  occlusionUpdateFrequency: 0.1
+  enableDopplerEffect: 1
+  dopplerLevel: 1
+  mobileMasterVolumeMultiplier: 0.8
+  mobileReduceQuality: 1
